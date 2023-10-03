@@ -156,3 +156,20 @@ span{
     border-radius: 5px;
     font-size: 20px;
 }
+
+@media screen and (max-width:900px){
+    .cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .card{
+        width:40vw;
+    }
+}
+@media screen and (min-width:380px)and (max-width:600px) {
+    .cards{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card{
+        width:85vw;
+    }
+}
