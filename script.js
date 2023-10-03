@@ -102,7 +102,7 @@ let arrayOffices=[];
         const cards = document.getElementById('cards')
      
         const msg=document.getElementById('msg')
-        msg.innerText=`${pinData[0].Message}`
+        msg.innerText=` ${pinData[0].Message}`
      
         let Offices = pinData[0].PostOffice;
      //   console.log(pinData.PostOffice)

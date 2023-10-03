@@ -156,7 +156,9 @@ span{
     border-radius: 5px;
     font-size: 20px;
 }
-
+#msg{
+    color: rgba(184, 188, 204, 0.5);
+}
 @media screen and (max-width:900px){
     .cards{
         grid-template-columns: repeat(2,1fr);
